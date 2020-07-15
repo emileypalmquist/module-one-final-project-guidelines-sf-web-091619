@@ -5,5 +5,7 @@ To install and run our "Where's Beer?... in CA" command line app, you must:
 
     1. Fork and clone the repository
     2. bundle install
-    3. bundle exec ruby bin/run.rb 
+    3. rake db:migrate
+    4. rake db:seed
+    3. ruby bin/run.rb or bundle exec ruby bin/run.rb
     4. Enjoy!
